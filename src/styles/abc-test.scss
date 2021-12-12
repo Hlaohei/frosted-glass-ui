@@ -6,7 +6,7 @@
 @import "./mixins/mixins.scss";
 
 
-@include b(abc-test) {
+@include b('abc-test') {
     min-width: 60px;
     height: 36px;
     font-size: 14px;
@@ -17,6 +17,7 @@
     outline: none;
     border: 1px solid transparent;
     padding: 0 10px;
+    cursor: pointer;
 
     &:active,
     &:focus {
@@ -67,7 +68,7 @@
         }
     }
 
-    &-danger {
+    &-error {
         color: #fff;
         background-color: $--color-danger;
 
@@ -75,6 +76,17 @@
         &:focus,
         &:hover {
             background-color: mix($--color-danger, #ccc);
+        }
+    }
+
+    &-warning {
+        color: #fff;
+        background-color: $--color-warning;
+
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: mix($--color-warning, #ccc);
         }
     }
 }

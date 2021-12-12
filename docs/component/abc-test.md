@@ -1,11 +1,23 @@
-# abc-test ABC测试组件
+# abc-test ABC测试
 
-<!-- <template>
-	<fg-button>按钮</fg-button>
-	<fg-button type="primary">按钮</fg-button>
-	<fg-button type="info">按钮</fg-button>
-	<fg-button type="success">按钮</fg-button>
-</template> -->
+
+<template>
+	<fg-abc-test>基础</fg-abc-test>
+	<fg-abc-test type="primary">正常</fg-abc-test>
+	<fg-abc-test type="info">信息</fg-abc-test>
+	<fg-abc-test type="success">成功</fg-abc-test>
+	<fg-abc-test type="warning">警告</fg-abc-test>
+	<fg-abc-test type="error">错误</fg-abc-test>
+</template>
+
+``` vue
+<fg-abc-test>基础</fg-abc-test>
+<fg-abc-test type="primary">正常</fg-abc-test>
+<fg-abc-test type="info">信息</fg-abc-test>
+<fg-abc-test type="success">成功</fg-abc-test>
+<fg-abc-test type="warning">警告</fg-abc-test>
+<fg-abc-test type="error">错误</fg-abc-test>
+```
 
 ## 1 fdsfdsf
 
