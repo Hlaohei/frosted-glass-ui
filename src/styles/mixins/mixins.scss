@@ -1,0 +1,16 @@
+/*
+ * mixins/mixins.scss
+ */
+
+
+// 组件库样式前缀
+$namespace: 'fg';
+
+// BEM
+@mixin b($block) {
+    $B: $namespace+'-'+$block !global;
+
+    .#{$B} {
+        @content;
+    }
+}
