@@ -1,0 +1,16 @@
+.*
+*.md
+*.yml
+build/
+node_modules/
+test/
+docs/
+assets/
+examples/
+public/
+src/
+vue.config.js
+.gitignore
+.eslintrc.js
+.babelrc
+pnpm-lock.yaml
