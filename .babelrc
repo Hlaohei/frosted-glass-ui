@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        ["component", {
+            "libraryName": "frosted-glass-ui",
+            "libDir": "lib",
+            "styleLibrary": {
+                "name": "styles",
+                "base": false,
+                "path": "[module].css"
+            }
+        }]
+    ]
+}
