@@ -1,0 +1,23 @@
+{
+    "zh": {
+        "/guide/": [
+            "getting-started"
+        ],
+        "/component/": [
+            {
+                "title": "基础",
+                "collapsable": false,
+                "children": [
+                    "abc-test"
+                ]
+            },
+            {
+                "title": "表单",
+                "collapsable": false,
+                "children": [
+                    "abc-test"
+                ]
+            }
+        ]
+    }
+}
