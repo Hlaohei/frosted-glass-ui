@@ -159,4 +159,4 @@ fileSave(path.join(__dirname, '../../docs/.vuepress/componentPages.json'))
     .write(JSON.stringify(componentPagesFile, null, '    '), 'utf8')
 
 
-console.log('\n \x1B[32m', "创建完成");
+console.log('\n \x1B[32m', "创建完成 \x1B[0m");
