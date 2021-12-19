@@ -20,5 +20,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
     install,
     AbcTest,
-    BcdTest
+    BcdTest,
 };
