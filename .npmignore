@@ -14,3 +14,5 @@ vue.config.js
 .eslintrc.js
 .babelrc
 pnpm-lock.yaml
+babel.config.js
+makefile

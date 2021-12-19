@@ -17,14 +17,15 @@ module.exports = merge(webpackBaseConfig, {
         filename: 'frosted-glass-ui.min.js',
         library: 'frosted-glass-ui',
         libraryTarget: 'umd',
-        umdNamedDefine: true
+        libraryExport: 'default'
+        // umdNamedDefine: true
     },
     externals: {
         vue: {
-            root: 'Vue',
-            commonjs: 'vue',
-            commonjs2: 'vue',
-            amd: 'vue'
+            root: "Vue",   //通过 script 标签引入，此时全局变量中可以访问的是 Vue
+            commonjs: "vue",  //可以将vue作为一个 CommonJS 模块访问
+            commonjs2: "vue",  //和上面的类似，但导出的是 module.exports.default
+            amd: "vue"   //类似于 commonjs，但使用 AMD 模块系统
         }
     },
     plugins: [
