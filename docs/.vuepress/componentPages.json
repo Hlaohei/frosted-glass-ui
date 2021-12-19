@@ -3,7 +3,7 @@
         "/guide/": [
             "getting-started"
         ],
-        "/component/": [
+        "/components/": [
             {
                 "title": "基础",
                 "collapsable": false,
@@ -17,6 +17,11 @@
                 "children": [
                     "abc-test"
                 ]
+            },
+            {
+                "title": "新加",
+                "collapsable": false,
+                "children": []
             }
         ]
     }

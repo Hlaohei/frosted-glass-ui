@@ -10,7 +10,7 @@ action:
   type: primary
 
 - text: 组件文档 📒
-  link: /component/
+  link: /components/
 
 features:
 - title: 简洁至上

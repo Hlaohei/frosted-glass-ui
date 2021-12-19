@@ -13,7 +13,7 @@ module.exports = {
         },
         {
             text: '组件',
-            link: '/component/'
+            link: '/components/'
         },
         {
             text: 'laohei.vip',
