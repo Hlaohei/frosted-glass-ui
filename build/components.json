@@ -1,3 +1,4 @@
 {
-    "abc-test": "packages/abc-test/index.js"
+    "abc-test": "packages/abc-test/index.js",
+    "bcd-test": "packages/bcd-test/index.js"
 }

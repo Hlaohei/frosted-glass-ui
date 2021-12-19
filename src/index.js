@@ -1,13 +1,24 @@
-import AbcTest from "./packages/abc-test";
+import AbcTest from "./packages/abc-test/index.js";
+import BcdTest from "./packages/bcd-test/index.js";
 
-const components = {
-    FgAbcTest: AbcTest,
-};
+const components = [
+    AbcTest,
+    BcdTest
+];
 
-const install = (Vue = {}) => {
-    Object.keys(components).forEach((key) => {
-        Vue.component(key, components[key]);
+const install = function (Vue) {
+    components.forEach(component => {
+        Vue.component(component.name, component);
     });
 };
 
-export default install;
+if (typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+}
+
+// export default install
+export default {
+    install,
+    AbcTest,
+    BcdTest
+};

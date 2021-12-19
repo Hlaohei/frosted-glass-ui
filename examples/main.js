@@ -4,13 +4,15 @@ import router from './router'
 import store from './store'
 
 // 开发路径引入
-import FrostedGlassUI from "../src/index.js"
-import "../src/styles/index.scss"
-Vue.use(FrostedGlassUI)
+// import FrostedGlassUI from "../src/index.js"
+// import "../src/styles/index.scss"
+// Vue.use(FrostedGlassUI)
 
-// 打包后路径引入
-// import "./frosted-glass-ui.js"
-// import "../lib/styles/frosted-glass-ui.css"
+// npm 包引入
+import "./plugins/frosted-glass-ui.js"
+// import FrostedGlassUI from 'frosted-glass-ui'
+// import 'frosted-glass-ui/lib/styles/frosted-glass-ui.css'
+// Vue.use(FrostedGlassUI)
 
 Vue.config.productionTip = false
 

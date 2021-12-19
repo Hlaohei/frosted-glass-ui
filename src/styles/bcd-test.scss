@@ -1,0 +1,10 @@
+/*
+ * abc-test.scss
+ */
+@charset "UTF-8";
+@import "./common/var.scss";
+@import "./mixins/mixins.scss";
+
+h1 {
+    color: pink;
+}

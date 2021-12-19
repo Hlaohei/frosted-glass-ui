@@ -9,6 +9,9 @@
 		<fg-abc-test type="success">成功</fg-abc-test>
 		<fg-abc-test type="warning">警告</fg-abc-test>
 		<fg-abc-test type="error">错误</fg-abc-test>
+
+		<fg-bcd-test></fg-bcd-test>
+
 	</div>
 </template>
 
