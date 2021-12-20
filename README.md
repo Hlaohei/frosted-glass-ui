@@ -1,5 +1,7 @@
 # frosted-glass-ui
 
+## 文档后续完善
+
 ## Project setup
 ```
 pnpm install
