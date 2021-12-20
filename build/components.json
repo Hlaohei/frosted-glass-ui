@@ -1,4 +1,5 @@
 {
     "abc-test": "packages/abc-test/index.js",
-    "bcd-test": "packages/bcd-test/index.js"
+    "bcd-test": "packages/bcd-test/index.js",
+    "button": "packages/button/index.js"
 }

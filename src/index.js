@@ -1,9 +1,11 @@
 import AbcTest from "./packages/abc-test/index.js";
 import BcdTest from "./packages/bcd-test/index.js";
+import Button from "./packages/button/index.js";
 
 const components = [
     AbcTest,
-    BcdTest
+    BcdTest,
+    Button
 ];
 
 const install = function (Vue) {
@@ -21,4 +23,5 @@ export default {
     install,
     AbcTest,
     BcdTest,
+    Button,
 };

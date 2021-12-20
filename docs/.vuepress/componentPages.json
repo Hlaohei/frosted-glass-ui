@@ -21,7 +21,9 @@
             {
                 "title": "新加",
                 "collapsable": false,
-                "children": []
+                "children": [
+                    "button"
+                ]
             }
         ]
     }
