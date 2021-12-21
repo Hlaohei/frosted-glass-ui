@@ -9,6 +9,7 @@ const sideBarConfig = require("./sideBar");
 module.exports = config({
     title: 'Frosted Glass UI',
     description: '磨砂玻璃样式的 UI 组件库，基于 Vue.js 2.X',
+    base:"/frosted-glass-ui/",
     head: [
         [
             'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
