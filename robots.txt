@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://laohei.vip/frosted-glass-ui/sitemap.xml

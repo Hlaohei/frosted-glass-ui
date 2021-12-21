@@ -1,0 +1,96 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Frosted Glass UI",
+  "home_page_url": "https://laohei.vip/frosted-glass-ui/",
+  "feed_url": "https://laohei.vip/frosted-glass-ui/feed.json",
+  "description": "磨砂玻璃样式的 UI 组件库，基于 Vue.js 2.X",
+  "author": {
+    "name": "laohei"
+  },
+  "items": [
+    {
+      "title": "abc-test ABC测试",
+      "url": "https://laohei.vip/frosted-glass-ui/components/abc-test/",
+      "id": "https://laohei.vip/frosted-glass-ui/components/abc-test/",
+      "content_html": "<h1 id=\"abc-test-abc测试\"> abc-test ABC测试</h1>\n<template>\n\t<fg-abc-test>基础</fg-abc-test>\n\t<fg-abc-test type=\"primary\">正常</fg-abc-test>\n\t<fg-abc-test type=\"info\">信息</fg-abc-test>\n\t<fg-abc-test type=\"success\">成功</fg-abc-test>\n\t<fg-abc-test type=\"warning\">警告</fg-abc-test>\n\t<fg-abc-test type=\"error\">错误</fg-abc-test>\n</template>\n<div><pre><code><span><span><span>&lt;</span>fg-abc-test</span><span>></span></span>基础<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>\n<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>\"</span>primary<span>\"</span></span><span>></span></span>正常<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>\n<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>\"</span>info<span>\"</span></span><span>></span></span>信息<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>\n<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>\"</span>success<span>\"</span></span><span>></span></span>成功<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>\n<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>\"</span>warning<span>\"</span></span><span>></span></span>警告<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>\n<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>\"</span>error<span>\"</span></span><span>></span></span>错误<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id=\"_1-fdsfdsf\"> 1 fdsfdsf</h2>\n<p>111</p>\n<h2 id=\"_2\"> 2</h2>\n<p>222</p>\n<h2 id=\"_3\"> 3</h2>\n<p>333</p>\n<div><pre><code>document<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>\ndocument<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>\ndocument<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>\ndocument<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><table>\n<thead>\n<tr>\n<th style=\"text-align:center\">表头1</th>\n<th style=\"text-align:center\">表头2</th>\n<th style=\"text-align:center\">表头3</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:center\">con11</td>\n<td style=\"text-align:center\">con22</td>\n<td style=\"text-align:center\">con33</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">con11</td>\n<td style=\"text-align:center\">con22</td>\n<td style=\"text-align:center\">con33</td>\n</tr>\n</tbody>\n</table>\n",
+      "date_published": "2021-12-19T14:57:01.000Z",
+      "date_modified": "2021-12-19T14:57:01.000Z",
+      "authors": [
+        {
+          "name": "laohei"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "button 按钮",
+      "url": "https://laohei.vip/frosted-glass-ui/components/button/",
+      "id": "https://laohei.vip/frosted-glass-ui/components/button/",
+      "content_html": "<h1 id=\"button-按钮\"> button 按钮</h1>\n<p>hhh</p>\n",
+      "date_published": "2021-12-20T07:04:54.000Z",
+      "date_modified": "2021-12-20T07:04:54.000Z",
+      "authors": [
+        {
+          "name": "laohei"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Home",
+      "url": "https://laohei.vip/frosted-glass-ui/",
+      "id": "https://laohei.vip/frosted-glass-ui/",
+      "content_html": "",
+      "date_published": "2021-12-12T07:54:12.000Z",
+      "date_modified": "2021-12-19T14:57:01.000Z",
+      "authors": [
+        {
+          "name": "laohei"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "组件",
+      "url": "https://laohei.vip/frosted-glass-ui/components/",
+      "id": "https://laohei.vip/frosted-glass-ui/components/",
+      "content_html": "<h1 id=\"组件\"> 组件</h1>\n",
+      "date_published": "2021-12-19T14:57:01.000Z",
+      "date_modified": "2021-12-19T14:57:01.000Z",
+      "authors": [
+        {
+          "name": "laohei"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "快速上手",
+      "url": "https://laohei.vip/frosted-glass-ui/guide/getting-started/",
+      "id": "https://laohei.vip/frosted-glass-ui/guide/getting-started/",
+      "content_html": "<h1 id=\"快速上手\"> 快速上手</h1>\n<div><pre><code>hhhhhhh\n</code></pre>\n<div><span>1</span><br></div></div>",
+      "date_published": "2021-12-12T07:54:12.000Z",
+      "date_modified": "2021-12-12T07:54:12.000Z",
+      "authors": [
+        {
+          "name": "laohei"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "指南",
+      "url": "https://laohei.vip/frosted-glass-ui/guide/",
+      "id": "https://laohei.vip/frosted-glass-ui/guide/",
+      "content_html": "<h1 id=\"指南\"> 指南</h1>\n",
+      "date_published": "2021-12-12T07:54:12.000Z",
+      "date_modified": "2021-12-12T07:54:12.000Z",
+      "authors": [
+        {
+          "name": "laohei"
+        }
+      ],
+      "tags": []
+    }
+  ]
+}
