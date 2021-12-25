@@ -6,7 +6,7 @@
   <author>
     <name>laohei</name>
   </author>
-  <updated>2021-12-25T09:08:09.959Z</updated>
+  <updated>2021-12-25T09:43:35.023Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://laohei.vip/frosted-glass-ui/atom.xml"/>
   <link rel="alternate" href="https://laohei.vip/frosted-glass-ui/"/>
@@ -14,37 +14,6 @@
   <contributor>
     <name>laohei</name>
   </contributor>
-  <entry>
-    <title type="html">button 按钮</title>
-    <id>https://laohei.vip/frosted-glass-ui/components/button/</id>
-    <link href="https://laohei.vip/frosted-glass-ui/components/button/"/>
-    <updated>2021-12-20T07:04:54.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="button-按钮"> button 按钮</h1>
-<p>hhh</p>
-]]></content>
-    <author>
-      <name>laohei</name>
-    </author>
-    <contributor>
-      <name>laohei</name>
-    </contributor>
-    <published>2021-12-20T07:04:54.000Z</published>
-    <rights>Copyright by laohei</rights>
-  </entry>
-  <entry>
-    <title type="html">Home</title>
-    <id>https://laohei.vip/frosted-glass-ui/</id>
-    <link href="https://laohei.vip/frosted-glass-ui/"/>
-    <updated>2021-12-19T14:57:01.000Z</updated>
-    <author>
-      <name>laohei</name>
-    </author>
-    <contributor>
-      <name>laohei</name>
-    </contributor>
-    <published>2021-12-12T07:54:12.000Z</published>
-    <rights>Copyright by laohei</rights>
-  </entry>
   <entry>
     <title type="html">指南</title>
     <id>https://laohei.vip/frosted-glass-ui/guide/</id>
@@ -78,66 +47,48 @@
     <rights>Copyright by laohei</rights>
   </entry>
   <entry>
-    <title type="html">abc-test ABC测试</title>
-    <id>https://laohei.vip/frosted-glass-ui/components/abc-test/</id>
-    <link href="https://laohei.vip/frosted-glass-ui/components/abc-test/"/>
-    <updated>2021-12-19T14:57:01.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="abc-test-abc测试"> abc-test ABC测试</h1>
+    <title type="html">button 按钮</title>
+    <id>https://laohei.vip/frosted-glass-ui/components/button/</id>
+    <link href="https://laohei.vip/frosted-glass-ui/components/button/"/>
+    <updated>2021-12-25T09:35:53.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="button-按钮"> button 按钮</h1>
 <template>
-	<fg-abc-test>基础</fg-abc-test>
-	<fg-abc-test type="primary">正常</fg-abc-test>
-	<fg-abc-test type="info">信息</fg-abc-test>
-	<fg-abc-test type="success">成功</fg-abc-test>
-	<fg-abc-test type="warning">警告</fg-abc-test>
-	<fg-abc-test type="error">错误</fg-abc-test>
+    <fg-button>基础</fg-button>
+    <fg-button type="primary">正常</fg-button>
+    <fg-button type="info">信息</fg-button>
+    <fg-button type="success">成功</fg-button>
+    <fg-button type="warning">警告</fg-button>
+    <fg-button type="error">错误</fg-button>
 </template>
-<div><pre><code><span><span><span>&lt;</span>fg-abc-test</span><span>></span></span>基础<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>
-<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>"</span>primary<span>"</span></span><span>></span></span>正常<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>
-<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>"</span>info<span>"</span></span><span>></span></span>信息<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>
-<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>"</span>success<span>"</span></span><span>></span></span>成功<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>
-<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>"</span>warning<span>"</span></span><span>></span></span>警告<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>
-<span><span><span>&lt;</span>fg-abc-test</span> <span>type</span><span><span>=</span><span>"</span>error<span>"</span></span><span>></span></span>错误<span><span><span>&lt;/</span>fg-abc-test</span><span>></span></span>
+<div><pre><code><span><span><span>&lt;</span>fg-button</span><span>></span></span>基础<span><span><span>&lt;/</span>fg-button</span><span>></span></span>
+<span><span><span>&lt;</span>fg-button</span> <span>type</span><span><span>=</span><span>"</span>primary<span>"</span></span><span>></span></span>正常<span><span><span>&lt;/</span>fg-button</span><span>></span></span>
+<span><span><span>&lt;</span>fg-button</span> <span>type</span><span><span>=</span><span>"</span>info<span>"</span></span><span>></span></span>信息<span><span><span>&lt;/</span>fg-button</span><span>></span></span>
+<span><span><span>&lt;</span>fg-button</span> <span>type</span><span><span>=</span><span>"</span>success<span>"</span></span><span>></span></span>成功<span><span><span>&lt;/</span>fg-button</span><span>></span></span>
+<span><span><span>&lt;</span>fg-button</span> <span>type</span><span><span>=</span><span>"</span>warning<span>"</span></span><span>></span></span>警告<span><span><span>&lt;/</span>fg-button</span><span>></span></span>
+<span><span><span>&lt;</span>fg-button</span> <span>type</span><span><span>=</span><span>"</span>error<span>"</span></span><span>></span></span>错误<span><span><span>&lt;/</span>fg-button</span><span>></span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="_1-fdsfdsf"> 1 fdsfdsf</h2>
-<p>111</p>
-<h2 id="_2"> 2</h2>
-<p>222</p>
-<h2 id="_3"> 3</h2>
-<p>333</p>
-<div><pre><code>document<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>
-document<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>
-document<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>
-document<span>.</span><span>getElementById</span><span>(</span><span>'obj'</span><span>)</span><span>;</span><span>//javascript</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><table>
-<thead>
-<tr>
-<th style="text-align:center">表头1</th>
-<th style="text-align:center">表头2</th>
-<th style="text-align:center">表头3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">con11</td>
-<td style="text-align:center">con22</td>
-<td style="text-align:center">con33</td>
-</tr>
-<tr>
-<td style="text-align:center">con11</td>
-<td style="text-align:center">con22</td>
-<td style="text-align:center">con33</td>
-</tr>
-</tbody>
-</table>
-]]></content>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content>
     <author>
       <name>laohei</name>
     </author>
     <contributor>
       <name>laohei</name>
     </contributor>
-    <published>2021-12-19T14:57:01.000Z</published>
+    <published>2021-12-20T07:04:54.000Z</published>
+    <rights>Copyright by laohei</rights>
+  </entry>
+  <entry>
+    <title type="html">Home</title>
+    <id>https://laohei.vip/frosted-glass-ui/</id>
+    <link href="https://laohei.vip/frosted-glass-ui/"/>
+    <updated>2021-12-19T14:57:01.000Z</updated>
+    <author>
+      <name>laohei</name>
+    </author>
+    <contributor>
+      <name>laohei</name>
+    </contributor>
+    <published>2021-12-12T07:54:12.000Z</published>
     <rights>Copyright by laohei</rights>
   </entry>
   <entry>
