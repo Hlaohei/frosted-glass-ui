@@ -4,6 +4,7 @@
   "author": "laohei",
   "description": "磨砂玻璃样式的 UI 组件库，基于 Vue.js 2.X",
   "private": false,
+  "homepage": "https://hlaohei.github.io/frosted-glass-ui",
   "main": "lib/frosted-glass-ui.min.js",
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -11,6 +12,7 @@
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "docs:deploy": "pnpm run docs:build && gh-pages -d docs/.vuepress/dist",
     "build:style": "rimraf ./lib/styles && gulp --gulpfile ./build/gen-style.js",
     "build:prod": "webpack --config ./build/webpack.prod.js",
     "build:component": "webpack --config ./build/webpack.component.js",
@@ -33,6 +35,7 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "@vuepress/core": "^1.9.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-component": "^1.1.1",
